@@ -1,5 +1,7 @@
 # BMI Calculator - React + Vite + Tailwind CSS - skillcamp.dev
 
+[BMI Calculator](https://bmi-calculator-scdev.netlify.app/)
+
 Gereksinimler:
 
 Bu uygulama ile kullanıcılar boy ve kilolarını girerek vücut kitle endeksini hesaplayabilirler. Çıkan sonuca göre kullanıcıya bir diyet listesi verilir.
