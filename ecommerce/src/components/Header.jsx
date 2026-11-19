@@ -2,6 +2,7 @@ import { Heart, ShoppingBag, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+import githubLogo from "../../github.svg";
 
 const navClass = ({ isActive }) =>
   `text-sm transition hover:text-accent ${isActive ? "font-semibold text-accent" : "text-ink/75"}`;
@@ -70,7 +71,7 @@ export default function Header() {
               {cartCount > 0 && <span className="counter">{cartCount}</span>}
             </Link>
             <a href="https://github.com/slckcskn/Skillcamp-Frontend-Projeler/tree/main/ecommerce">
-            <img src="../../github.svg" alt="Github link" width={24} height={24}/>
+            <img src={githubLogo} alt="Github link" width={24} height={24}/>
             </a>
           </div>
         </div>
