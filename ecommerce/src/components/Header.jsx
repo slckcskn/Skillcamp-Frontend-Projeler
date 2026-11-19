@@ -69,8 +69,8 @@ export default function Header() {
               <ShoppingBag size={21} strokeWidth={1.6} />
               {cartCount > 0 && <span className="counter">{cartCount}</span>}
             </Link>
-            <a href="https://github.com/slckcskn/Skillcamp-Frontend-Projeler">
-            <img src="/github.svg" alt="Github link" width={24} height={24}/>
+            <a href="https://github.com/slckcskn/Skillcamp-Frontend-Projeler/tree/main/ecommerce">
+            <img src="../../github.svg" alt="Github link" width={24} height={24}/>
             </a>
           </div>
         </div>
